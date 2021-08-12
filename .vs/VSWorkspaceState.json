@@ -3,12 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\home",
-    "\\src\\app\\servers",
     "\\src\\app\\servers\\edit-server",
-    "\\src\\app\\servers\\server",
-    "\\src\\app\\users"
+    "\\src\\app\\servers\\server"
   ],
-  "SelectedNode": "\\src\\app\\servers\\edit-server\\edit-server.component.ts",
+  "SelectedNode": "\\src\\app\\auth.service.ts",
   "PreviewInSolutionExplorer": false
 }

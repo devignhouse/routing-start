@@ -6,11 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { UsersComponent } from './users/users.component';
-import { ServersComponent } from './servers/servers.component';
 import { UserComponent } from './users/user/user.component';
-import { EditServerComponent } from './servers/edit-server/edit-server.component';
+import { ServersComponent } from './servers/servers.component';
 import { ServerComponent } from './servers/server/server.component';
+import { EditServerComponent } from './servers/edit-server/edit-server.component';
 import { ServersService } from './servers/servers.service';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AuthService } from './auth.service';
+import { AuthGuard } from './auth-guard.service';
 
 
 @NgModule({
@@ -21,14 +24,15 @@ import { ServersService } from './servers/servers.service';
     ServersComponent,
     UserComponent,
     EditServerComponent,
-    ServerComponent
+    ServerComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule
   ],
-  providers: [ServersService],
+  providers: [ServersService, AuthService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
