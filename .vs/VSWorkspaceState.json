@@ -3,9 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\servers\\edit-server",
-    "\\src\\app\\servers\\server"
+    "\\src\\app\\servers",
+    "\\src\\app\\servers\\edit-server"
   ],
-  "SelectedNode": "\\src\\app\\auth.service.ts",
+  "SelectedNode": "\\src\\app\\servers\\edit-server\\can-deactivate-guard.service.ts",
   "PreviewInSolutionExplorer": false
 }
